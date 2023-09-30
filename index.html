@@ -1,34 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./index.css">
-    <script src="https://kit.fontawesome.com/a8cbbd77a3.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://kit.fontawesome.com/a8cbbd77a3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <section>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a href="./Assets/"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="./Assets/github.svg"> <i class="fa-brands fa-github"></i></a>
-              <a href="./Assets/envelope-regular.svg"><i class="fa-regular fa-envelope"></i></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" href="#">Home</a>
-                  <a class="nav-link" href="#">About</a>
-                  <a class="nav-link" href="#">Projects</a>
-                  <a class="nav-link" href="#" >Skills</a>
-                </div>
-              </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#Home">Home</a>
+              <a class="nav-link" href="#About">About</a>
+              <a class="nav-link" href="#Project">Projects</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </div>
-          </nav>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="https://www.linkedin.com/in/earl-munyua-b7857a131/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Munyua123">
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a href="mailto:earlmunyua96@gmail.com"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a href="https://wa.me/+254717029229?text=urlencodedtext "
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </div>
+      </nav>
     </section>
-    <secction></secction>
-    <secction></secction>
-</body>
+    <section id="About">
+      <h2>About</h2>
+      <img
+        src="./Assets/IMG-20210719-WA0013.jpg"
+        class="rounded mx-auto d-block"
+        width="300px"
+        alt="..."
+      />
+      <p>
+        HI, My name is Earl Munyua, a passionate and aspiring software engineer
+        currently pursuing my degree at Moringa School. With a strong interest
+        in technology and a desire to solve real-world problems through code,
+        I'm dedicated to honing my skills and making a positive impact in the
+        field of software development. As a student, I'm on a journey of
+        continuous learning, exploring various programming languages,
+        frameworks, and tools. I believe that the ever-evolving world of
+        software engineering offers boundless opportunities for creativity and
+        innovation, and I'm excited to be a part of it. My portfolio will
+        showcases some of the projects I've worked on during my early stages of
+        learning and development. I'm enthusiastic about collaborating with
+        others, tackling new challenges, and contributing to open-source
+        projects.
+      </p>
+    </section>
+    <section id="Project">
+      <h2>Projects</h2>
+      <div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_1280.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Here is a preview of my first project.</p>
+            <a href="#" class="btn btn-primary">My first Project</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://cdn.pixabay.com/photo/2017/06/30/03/34/gui-2457114_1280.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">.</p>
+            <a href="#" class="btn btn-primary">Coming Soon</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>Here is a list of skills that i have gathered ;</p>
+      <ul>
+        <ul class="newList">
+          <li><strong>Soft Skills</strong></li>
+        </ul>
+        <li>Time management</li>
+        <li>Attention to detail</li>
+        <li>Communication and teamwork</li>
+        <li>Adaptability and learning agility</li>
+      </ul>
+    </section>
+    <section id="Home">
+      <footer></footer>
+    </section>
+  </body>
 </html>

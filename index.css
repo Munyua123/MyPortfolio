@@ -1,44 +1,78 @@
 @import url(https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css);
 
-*{
-    background-color: #616d75;
-    font-family: Arial, Helvetica, sans-serif;
+.container{
+    background-color: #0015;
+    box-sizing: border-box;
 }
 
 .container-fluid{
     width: 100rem;
     height: 5rem;
 }
-nav, .nav-link{
-    color: #fff;
-    background-color: #616d75;
-}
 
-i{
-    color: #fff;
-    padding: 2rem;
-}
 h2{
     color: orangered;
+    text-align: center;
 }
-p{
+/*p{
     color: #fff;
-}
-#about, p{ 
+}*/
+#About p{ 
     padding-bottom: 2rem;
-}
-.card{
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-}
-.card-body{
-  flex: 33.33%;
-  padding: 5px;
+    color: white;
+    padding-top: 2rem;
 }
 
-ul{
-    text-decoration: none;
-    color: #fff;
+@media (min-width: 900px){
+   #Project .card{
+        display: flex;
+        margin-top: 10px;
+        background-color: #0105;
+        margin-bottom: 5rem;
+        flex: 33.33%;
+
+    }
+   #Project .card-body{
+        color: #000;
+      }
+      i{
+        padding: 2rem;
+        color: #000;
+    }
+    .contacts, footer{
+        background-color: #fff4;
+        width: 70rem;
+        margin-left: 0px;
+        text-align: center;
+    }
+    }
+@media (max-width: 900px) {
+    .card{
+        margin-bottom: 2rem;
+        background-color: #0001;
+        height: 9rem;
+        overflow-y: hidden;
+        display: flex;
+        justify-content: end;
+    }
+    i{
+        padding: 1rem;
+        color: #000;
+    }
+    .contacts, footer{
+        background-color: #0004;
+        width: 22rem;
+        margin-left: 0px;
+        color: #fff;
+    }
 }
+#Project a{
+    background-color: #1015;
+    border-color: #601;
+    color: #301;
+}
+
+#skills  .innerList{
+    list-style-type: none;
+}
+

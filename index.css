@@ -24,20 +24,24 @@ h2{
 }
 
 @media (min-width: 900px){
-   #Project .card{
+   #Project div{
         display: flex;
-        margin-top: 10px;
-        background-color: #0105;
-        margin-bottom: 5rem;
-        flex: 33.33%;
-
+        justify-content: space-between;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .card{
+        background-color: #1015;
+        width: auto;
     }
    #Project .card-body{
         color: #000;
+        padding-bottom: 2rem;
       }
+      
       i{
         padding: 2rem;
-        color: #000;
+        color: #000f;
     }
     .contacts, footer{
         background-color: #fff4;
@@ -46,7 +50,8 @@ h2{
         text-align: center;
     }
     }
-@media (max-width: 900px) {
+
+@media (max-width: 768px) {
     .card{
         margin-bottom: 2rem;
         background-color: #0001;
@@ -61,7 +66,7 @@ h2{
     }
     .contacts, footer{
         background-color: #0004;
-        width: 22rem;
+        width: 24rem;
         margin-left: 0px;
         color: #fff;
     }
@@ -81,7 +86,7 @@ h2{
     }
     .contacts, footer{
         background-color: #0004;
-        width: 22rem;
+        width: 18rem;
         margin-left: 0px;
         color: #fff;
     }
@@ -90,8 +95,8 @@ h2{
 #Project a{
     background-color: #1015;
     border-color: #601;
-    color: #301;
 }
+
 
 #skills  .innerList{
     list-style-type: none;
